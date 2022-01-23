@@ -9,7 +9,6 @@ public class CatTest {
     @Test
     public void checkLionDetails() {
         LionCat lion = new LionCat();
-        lion.setDetails("Lion", "Africa");
         assertEquals("I am a Lion from Africa.", lion.getDetails());
     }
 
@@ -22,7 +21,6 @@ public class CatTest {
     @Test
     public void checkCheetahDetails() {
         CheetahCat cheetah = new CheetahCat();
-        cheetah.setDetails("Cheetah", "India");
         assertEquals("I am a Cheetah from India.", cheetah.getDetails());
     }
 
@@ -35,7 +33,6 @@ public class CatTest {
     @Test
     public void checkDomesticCatDetails() {
         DomesticCat tomCat = new DomesticCat();
-        tomCat.setDetails("Cat", "Russia");
         assertEquals("I am a Cat from Russia.", tomCat.getDetails());
     }
 
@@ -81,7 +78,7 @@ public class CatTest {
     @Test
     public void checkLionHeight() {
         Cat lionCat = new LionCat();
-        assertEquals(1100, lionCat.getAverageHeight());
+        assertEquals(110, lionCat.getAverageHeight());
     }
 
 
